@@ -1,0 +1,32 @@
+<ion-content padding>
+  <h1>Welcome!</h1>
+
+  <div class="hotspot-div">
+  	<img class="hotspot-img" src="../assets/imgs/logo.png" />
+  	<p>LOCAL</p>
+  	<p>Hotspot</p>
+  </div>
+
+  <h3>Please Register</h3>
+
+  <button ion-button full (click)="facebookLogin()">Facebook</button>
+  <button ion-button full (click)="instagramLogin()">Instagram</button>
+
+  <h3>or</h3>
+  <ion-list>
+
+	  <ion-item>
+	    <ion-label floating>Best Email</ion-label>
+	    <ion-input type="text"></ion-input>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label floating>Password</ion-label>
+	    <ion-input type="password"></ion-input>
+	  </ion-item>
+
+	</ion-list>
+
+  <button ion-button full (click)="submit()">Submit</button>
+
+</ion-content>
